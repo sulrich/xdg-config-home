@@ -1,0 +1,15 @@
+botpower.cfg*
+router-creds.yml*
+coc/
+configstore/
+gcloud/
+gh/
+gnmic/
+htop/
+iterm2/
+nvim/
+op/
+powerline/
+ticker/
+yapf/
+wireshark/
