@@ -12,3 +12,4 @@ powerline/
 ticker/
 yapf/
 wireshark/
+nvim/**
