@@ -1,5 +1,4 @@
 botpower.cfg*
-router-creds.yml*
 coc/
 configstore/
 gcloud/
@@ -7,9 +6,12 @@ gh/
 gnmic/
 htop/
 iterm2/
-op/
+nvim
+op
 powerline/
+raycast/
+router-creds.yml*
 ticker/
-yapf/
+uv
 wireshark/
-nvim/
+yapf/
