@@ -1,7 +1,8 @@
-theme = dark:Builtin Solarized Dark,light:Builtin Solarized Light
+theme = dark:catppuccin-mocha,light:catppuccin-latte
 font-family = "JetBrainsMono Nerd Font Mono"
 
 window-height = 75
 window-width = 220
 window-theme = system
-macos-titlebar-style = tabs
+macos-titlebar-style = tabs 
+shell-integration = zsh
