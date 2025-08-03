@@ -5,4 +5,10 @@ window-height = 75
 window-width = 220
 window-theme = system
 macos-titlebar-style = transparent 
+
+# should be enabled by default, but i'm being pedantic here
 shell-integration = zsh
+
+# quick terminal configuration
+keybind = global:ctrl+cmd+grave_accent=toggle_quick_terminal
+quick-terminal-position=center

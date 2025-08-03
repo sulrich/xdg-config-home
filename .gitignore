@@ -14,3 +14,4 @@ router-creds.yml*
 ticker/
 wireshark/
 yapf/
+uv/*.json
