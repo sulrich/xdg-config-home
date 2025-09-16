@@ -4,7 +4,7 @@ font-family = "JetBrainsMono Nerd Font Mono"
 window-height = 75
 window-width = 220
 window-theme = system
-macos-titlebar-style = transparent 
+macos-titlebar-style = tabs 
 
 # should be enabled by default, but i'm being pedantic here
 shell-integration = zsh
