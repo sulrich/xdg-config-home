@@ -1,4 +1,4 @@
-theme = dark:catppuccin-mocha,light:catppuccin-latte
+theme = dark:"Catppuccin Mocha",light:"Catppuccin Latte"
 font-family = "JetBrainsMono Nerd Font Mono"
 
 window-height = 75
@@ -12,3 +12,9 @@ shell-integration = zsh
 # quick terminal configuration
 keybind = global:ctrl+cmd+grave_accent=toggle_quick_terminal
 quick-terminal-position=center
+
+# cursor shaders - 'cause i'm a dork
+# note that this only works with the ghostty@tip releases at the moment
+# cursor-style = "block"
+# cursor-style-blink = true
+# custom-shader = "shaders/cursor_frozen.glsl"
