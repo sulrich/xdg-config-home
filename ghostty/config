@@ -13,6 +13,19 @@ shell-integration = zsh
 keybind = global:ctrl+cmd+grave_accent=toggle_quick_terminal
 quick-terminal-position=center
 
+# 20250916(sulrich): the following is only available in ghostty 1.2.0
+# 
+# ref: https://ghostty.org/docs/install/release-notes/1-2-0#quick-terminal-size
+# The primary axis is defined by the quick-terminal-position configuration. For
+# the top and bottom values, the primary axis is the height. For the left and
+# right values, the primary axis is the width. For center, it depends on your
+# monitor orientation: it is height for landscape and width for portrait.
+#
+#                  primary, secondary - requires units (% or px)
+quick-terminal-size = 50%, 50%
+
+# 20250916: the above doesn't seem to be working the way i'd like it to.
+
 # cursor shaders - 'cause i'm a dork
 # note that this only works with the ghostty@tip releases at the moment
 # cursor-style = "block"
