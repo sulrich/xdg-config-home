@@ -26,6 +26,11 @@ quick-terminal-size = 50%, 50%
 
 # 20250916: the above doesn't seem to be working the way i'd like it to.
 
+## cursor bits
+cursor-style = block
+cursor-style-blink = false
+shell-integration-features = no-cursor
+
 # cursor shaders - 'cause i'm a dork
 # note that this only works with the ghostty@tip releases at the moment
 # cursor-style = "block"
