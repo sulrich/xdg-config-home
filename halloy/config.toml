@@ -1,0 +1,56 @@
+# Halloy config.
+#
+# For a complete list of available options,
+# please visit https://halloy.chat/configuration.html
+
+theme = "catppuccin-mocha"
+
+# [servers.liberachat]
+# nickname = "sulrich"
+# server = "irc.libera.chat"
+# channels = ["#halloy"]
+
+[servers.omg]
+nickname = "sulrich"
+server = "irc.social.lol"
+port = 6697
+channels = ["#general"]
+
+[servers.omg.sasl.plain]
+username = "sulrich"
+password_file = "~/.credentials/irc-omg-lol.txt"
+
+
+
+[font]
+weight = "medium"
+# bold-weight = "bold"
+# family = "JetBrains Mono"
+family = "JetBrainsMono Nerd Font Mono"
+size = 13
+
+## start: single pane
+## following configuration will prevent multiple buffers from being opened
+[actions.buffer]
+click_channel_name = "replace-pane"
+click_highlight = "replace-pane"
+click_username = "replace-pane"
+local = "replace-pane"
+message_channel = "replace-pane"
+message_user = "replace-pane"
+
+[actions.sidebar]
+buffer = "replace-pane"
+## end: single pane
+
+[buffer.emojis]
+show_picker = true
+skin_tone = "default"
+auto_replace = true
+
+
+[keyboard]
+maximize_buffer = "none"
+restore_buffer = "none"
+scroll_up_page = "cmd+shift+k"
+scroll_down_page = "cmd+shift+j"
