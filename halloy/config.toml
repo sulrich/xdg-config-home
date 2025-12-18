@@ -48,6 +48,9 @@ show_picker = true
 skin_tone = "default"
 auto_replace = true
 
+[buffer.text_input]
+key_bindings = "emacs"
+auto_format = "markdown"
 
 [keyboard]
 maximize_buffer = "none"
