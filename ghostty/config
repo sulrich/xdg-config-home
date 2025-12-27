@@ -36,3 +36,6 @@ shell-integration-features = no-cursor
 # cursor-style = "block"
 # cursor-style-blink = true
 # custom-shader = "shaders/cursor_frozen.glsl"
+
+# added to make life in claude-code a little better.
+keybind = shift+enter=text:\x1b\r
