@@ -1,4 +1,5 @@
-theme = dark:"Catppuccin Mocha",light:"Catppuccin Latte"
+# theme = dark:"Catppuccin Mocha",light:"Catppuccin Latte"
+theme = "Catppuccin Mocha"
 # theme = dark:"Builtin Solarized Dark",light:"Builtin Solarized Light"
 # theme = "Solarized Dark Patched"
 font-family = "JetBrainsMono Nerd Font Mono"
