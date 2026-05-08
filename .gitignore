@@ -1,6 +1,8 @@
 botpower.cfg*
+cagent/
 coc/
 configstore/
+darktable/
 gcloud/
 gh/
 gnmic/
@@ -12,6 +14,6 @@ powerline/
 raycast/
 router-creds.yml*
 ticker/
+uv/*.json
 wireshark/
 yapf/
-uv/*.json
