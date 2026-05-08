@@ -1,0 +1,70 @@
+# espanso match file
+
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+
+# note that the date formatting details are based on `chrono::format"
+# ref: https://docs.rs/chrono/latest/chrono/format/strftime/index.html
+
+# You can use this file to define the base matches (aka snippets)
+# that will be available in every application when using espanso.
+
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+
+# yaml-language-server: $schema=https://raw.githubusercontent.com/espanso/espanso/dev/schemas/match.schema.json
+
+matches:
+  # Simple text replacement
+  - trigger: ":espanso"
+    replace: "Hi there!"
+
+  # NOTE: espanso uses YAML to define matches, so pay attention to the
+  # indentation!
+  - trigger: "@@thread"
+    replace: '## *$|$* 🧵'
+
+  - trigger: "@@flip"
+    replace: "(╯°□°)╯︵ ┻━┻"
+
+  - trigger: "@@thanks"
+    replace: "THANK YOU FOR YOUR ATTENTION TO THIS MATTER!"
+
+  - trigger: "@@shrug"
+    replace: '¯\_(ツ)_/¯'
+
+  # But matches can also be dynamic:
+  #
+  - trigger: "@@ds"
+    replace: "{{date_yyyymmdd}}"
+    vars:
+      - name: date_yyyymmdd
+        type: date
+        params:
+          format: "%Y%m%d"
+
+  - trigger: "@@dtn"
+    replace: "{{date_name}}(sulrich)"
+    vars:
+      - name: date_name
+        type: date
+        params:
+          format: "%Y%m%d"
+
+  - trigger: "@@dts"
+    replace: "{{date_time_format}}"
+    vars:
+      - name: date_time_format
+        type: date
+        params:
+          format: "%Y%m%d - %T %z"
+
+  # Print the output of a shell command
+  - trigger: ":shell"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "echo 'Hello from your shell'"
+
+  # And much more! For more information, visit the docs: https://espanso.org/docs/
