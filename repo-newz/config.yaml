@@ -3,6 +3,7 @@ vault_subpath: "{year}/repo-activity-{date}.md"
 model: claude-sonnet-4-6
 repos:
   - facebook/fboss
-  - facebook/bgp
-  - facebook/DNE-Taac
+  - facebook/BGP
+  - facebook/DNE-TaaC
   - facebook/openr
+  - sulrich/docker-tacplus
