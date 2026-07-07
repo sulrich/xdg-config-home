@@ -1,0 +1,3 @@
+credentials_path = "~/.config/playola/credentials.toml"
+storefront = "us"
+# token_path = "~/.config/playola/token.json"   # optional; this is the default
