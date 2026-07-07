@@ -17,3 +17,6 @@ ticker/
 uv/*.json
 wireshark/
 yapf/
+playola/*.p8
+playola/*.json
+playola/credentials.toml
