@@ -1,0 +1,18 @@
+{
+  "trustedtaps": [
+    "anomalyco/tap",
+    "atlassian/acli",
+    "basecamp/tap",
+    "bro3886/tap",
+    "docker/tap",
+    "espanso/espanso",
+    "yoheimuta/protolint"
+  ],
+  "trustedformulae": [
+    "can1357/tap/omp",
+    "umputun/apps/revdiff"
+  ],
+  "trustedcasks": [
+    "docker/tap/sbx"
+  ]
+}
