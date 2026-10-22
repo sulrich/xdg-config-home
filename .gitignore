@@ -1,3 +1,5 @@
+acli/
+basecamp
 botpower.cfg*
 cagent/
 coc/
@@ -9,15 +11,18 @@ gnmic/
 gws/
 htop/
 iterm2/
+mole/
+nexthop/
 nvim
 op
+playola/*.json
+playola/*.p8
+playola/credentials.toml
 powerline/
 raycast/
 router-creds.yml*
+swiftpm/
 ticker/
 uv/*.json
 wireshark/
 yapf/
-playola/*.p8
-playola/*.json
-playola/credentials.toml
