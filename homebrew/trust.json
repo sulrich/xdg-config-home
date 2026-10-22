@@ -13,6 +13,6 @@
     "umputun/apps/revdiff"
   ],
   "trustedcasks": [
-    "docker/tap/sbx"
+    "docker/tap/sbx",
   ]
 }
