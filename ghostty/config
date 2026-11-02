@@ -8,7 +8,7 @@ window-height = 75
 window-width = 220
 window-theme = system
 window-inherit-working-directory = false
-macos-titlebar-style = transparent 
+macos-titlebar-style = tabs 
 
 # make this a prominent split
 split-divider-color = white
