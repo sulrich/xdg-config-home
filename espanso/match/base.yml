@@ -26,6 +26,9 @@ matches:
   - trigger: "@@flip"
     replace: "(╯°□°)╯︵ ┻━┻"
 
+  - trigger: "@@jira"
+    replace: "https://nexthopai.atlassian.net/browse/"
+
   - trigger: "@@thanks"
     replace: "THANK YOU FOR YOUR ATTENTION TO THIS MATTER!"
 
