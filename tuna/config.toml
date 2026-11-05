@@ -1,0 +1,367 @@
+[catalogConfiguration]
+customFolders = []
+customItems = []
+folderDepthOverrides = []
+
+    [[catalogConfiguration.scriptsDirectories]]
+    id = 'B3AD5596-12A2-472A-B0AC-00D657C390E5'
+    path = '~/src/personal/bin'
+
+    [[catalogConfiguration.scriptsDirectories]]
+    id = 'EB920C58-C81B-4568-9908-0A28D43A8BE3'
+    path = '~/src/personal/bin/tuna'
+
+[catalogs]
+searchPriorities = []
+sortOrders = []
+
+    [[catalogs.globalScopes]]
+    catalogIdentifier = 'camera-preview.commands'
+
+        [catalogs.globalScopes.scope]
+        kind = 'none'
+
+    [[catalogs.globalScopes]]
+    catalogIdentifier = 'obsidian.notes'
+
+        [catalogs.globalScopes.scope]
+        kind = 'none'
+
+    [[catalogs.globalScopes]]
+    catalogIdentifier = 'reminders'
+
+        [catalogs.globalScopes.scope]
+        kind = 'none'
+
+    [[catalogs.globalScopes]]
+    catalogIdentifier = 'tuna.commands'
+
+        [catalogs.globalScopes.scope]
+        kind = 'none'
+
+    [[catalogs.globalScopes]]
+    catalogIdentifier = 'tuna.effects'
+
+        [catalogs.globalScopes.scope]
+        itemIDs = [ 'This is fine' ]
+        kind = 'only'
+
+    [[catalogs.globalScopes]]
+    catalogIdentifier = 'tuna.emoji'
+
+        [catalogs.globalScopes.scope]
+        kind = 'none'
+
+    [[catalogs.globalScopes]]
+    catalogIdentifier = 'tuna.user-folders'
+
+        [catalogs.globalScopes.scope]
+        itemIDs = [ '/Users/sulrich/Mail' ]
+        kind = 'excluding'
+
+[[comboMode.bindings]]
+key = 'o'
+
+    [comboMode.bindings.destination]
+    type = 'group'
+
+        [[comboMode.bindings.destination.bindings]]
+        iconPath = '/System/Applications/Messages.app'
+        key = 'm'
+        label = 'messages'
+
+            [comboMode.bindings.destination.bindings.destination]
+            type = 'command'
+
+                [comboMode.bindings.destination.bindings.destination.command]
+                actionIdentifier = 'tuna.common-actions/open'
+                behavior = 'run'
+                presentation = 'automatic'
+                subjectIdentifiers = [ 'path:/System/Applications/Messages.app' ]
+                type = 'savedCommand'
+
+        [[comboMode.bindings.destination.bindings]]
+        iconPath = '/Applications/Claude.app'
+        key = 'l'
+        label = 'claude'
+
+            [comboMode.bindings.destination.bindings.destination]
+            type = 'command'
+
+                [comboMode.bindings.destination.bindings.destination.command]
+                actionIdentifier = 'tuna.common-actions/open'
+                behavior = 'run'
+                presentation = 'automatic'
+                subjectIdentifiers = [ 'path:/Applications/Claude.app' ]
+                type = 'savedCommand'
+
+        [[comboMode.bindings.destination.bindings]]
+        iconPath = '/Applications/WhatsApp.app'
+        key = 'w'
+        label = 'whatsapp'
+
+            [comboMode.bindings.destination.bindings.destination]
+            type = 'command'
+
+                [comboMode.bindings.destination.bindings.destination.command]
+                actionIdentifier = 'tuna.common-actions/open'
+                behavior = 'run'
+                presentation = 'automatic'
+                subjectIdentifiers = [ 'path:/Applications/WhatsApp.app' ]
+                type = 'savedCommand'
+
+        [[comboMode.bindings.destination.bindings]]
+        iconPath = '/Users/sulrich/Applications/Chrome Apps.localized/discord.app'
+        key = 'd'
+        label = 'discord'
+
+            [comboMode.bindings.destination.bindings.destination]
+            type = 'command'
+
+                [comboMode.bindings.destination.bindings.destination.command]
+                actionIdentifier = 'tuna.common-actions/open'
+                behavior = 'run'
+                presentation = 'automatic'
+                subjectIdentifiers = [ 'path:/Users/sulrich/Applications/Chrome Apps.localized/discord.app' ]
+                type = 'savedCommand'
+
+        [[comboMode.bindings.destination.bindings]]
+        iconPath = '/Applications/Things3.app'
+        key = 't'
+        label = 'things'
+
+            [comboMode.bindings.destination.bindings.destination]
+            type = 'command'
+
+                [comboMode.bindings.destination.bindings.destination.command]
+                actionIdentifier = 'tuna.common-actions/open'
+                behavior = 'run'
+                presentation = 'automatic'
+                subjectIdentifiers = [ 'path:/Applications/Things3.app' ]
+                type = 'savedCommand'
+
+        [[comboMode.bindings.destination.bindings]]
+        iconPath = '/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app'
+        key = 'b'
+        label = 'botwerks'
+
+            [comboMode.bindings.destination.bindings.destination]
+            type = 'command'
+
+                [comboMode.bindings.destination.bindings.destination.command]
+                actionIdentifier = 'tuna.common-actions/open'
+                behavior = 'run'
+                presentation = 'automatic'
+                subjectIdentifiers = [ 'path:/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app' ]
+                type = 'savedCommand'
+
+        [[comboMode.bindings.destination.bindings]]
+        iconPath = '/Applications/Obsidian.app'
+        key = 'o'
+        label = 'obsidian'
+
+            [comboMode.bindings.destination.bindings.destination]
+            type = 'command'
+
+                [comboMode.bindings.destination.bindings.destination.command]
+                actionIdentifier = 'tuna.common-actions/open'
+                behavior = 'run'
+                presentation = 'automatic'
+                subjectIdentifiers = [ 'path:/Applications/Obsidian.app' ]
+                type = 'savedCommand'
+
+        [[comboMode.bindings.destination.bindings]]
+        iconPath = '/Applications/Slack.app'
+        key = 's'
+        label = 'slack'
+
+            [comboMode.bindings.destination.bindings.destination]
+            type = 'command'
+
+                [comboMode.bindings.destination.bindings.destination.command]
+                actionIdentifier = 'tuna.common-actions/open'
+                behavior = 'run'
+                presentation = 'automatic'
+                subjectIdentifiers = [ 'path:/Applications/Slack.app' ]
+                type = 'savedCommand'
+
+        [[comboMode.bindings.destination.bindings]]
+        iconPath = '/Applications/Google Chrome.app'
+        key = 'c'
+
+            [comboMode.bindings.destination.bindings.destination]
+            type = 'command'
+
+                [comboMode.bindings.destination.bindings.destination.command]
+                actionIdentifier = 'tuna.common-actions/open'
+                behavior = 'run'
+                presentation = 'automatic'
+                subjectIdentifiers = [ 'path:/Applications/Google Chrome.app' ]
+                type = 'savedCommand'
+
+        [[comboMode.bindings.destination.bindings]]
+        iconPath = '/Applications/Ghostty.app'
+        key = 'g'
+
+            [comboMode.bindings.destination.bindings.destination]
+            type = 'command'
+
+                [comboMode.bindings.destination.bindings.destination.command]
+                actionIdentifier = 'tuna.common-actions/open'
+                behavior = 'run'
+                presentation = 'automatic'
+                subjectIdentifiers = [ 'path:/Applications/Ghostty.app' ]
+                type = 'savedCommand'
+
+        [[comboMode.bindings.destination.bindings]]
+        key = 'x'
+
+            [comboMode.bindings.destination.bindings.destination]
+            type = 'command'
+
+                [comboMode.bindings.destination.bindings.destination.command]
+                actionIdentifier = 'tuna.common-actions/run'
+                behavior = 'run'
+                presentation = 'automatic'
+                subjectIdentifiers = [ 'tuna.system-tasks/lock-screen' ]
+                type = 'savedCommand'
+
+[[comboMode.bindings]]
+iconPath = '/Applications/Fantastical.app'
+key = 'f'
+
+    [comboMode.bindings.destination]
+    type = 'command'
+
+        [comboMode.bindings.destination.command]
+        actionIdentifier = 'tuna.common-actions/open'
+        behavior = 'run'
+        presentation = 'automatic'
+        subjectIdentifiers = [ 'path:/Applications/Fantastical.app' ]
+        type = 'savedCommand'
+
+[[comboMode.bindings]]
+iconPath = 'face.smiling'
+key = 'e'
+
+    [comboMode.bindings.destination]
+    type = 'command'
+
+        [comboMode.bindings.destination.command]
+        actionIdentifier = 'tuna.common-actions/browse'
+        behavior = 'run'
+        presentation = 'automatic'
+        subjectIdentifiers = [ 'tuna.emoji.search/emoji.search' ]
+        type = 'savedCommand'
+
+[[comboMode.bindings]]
+key = 'h'
+
+    [comboMode.bindings.destination]
+    type = 'command'
+
+        [comboMode.bindings.destination.command]
+        actionIdentifier = 'tuna.common-actions/browse'
+        behavior = 'run'
+        presentation = 'automatic'
+        subjectIdentifiers = [ 'tuna.clipboard/clipboard.history.root' ]
+        type = 'savedCommand'
+
+[[comboMode.bindings]]
+iconPath = '/Applications/Neovide.app'
+key = 'v'
+
+    [comboMode.bindings.destination]
+    type = 'command'
+
+        [comboMode.bindings.destination.command]
+        actionIdentifier = 'tuna.common-actions/open'
+        behavior = 'run'
+        presentation = 'automatic'
+        subjectIdentifiers = [ 'path:/Applications/Neovide.app' ]
+        type = 'savedCommand'
+
+[[comboMode.bindings]]
+key = "\u2423"
+
+    [comboMode.bindings.destination]
+    type = 'command'
+
+        [comboMode.bindings.destination.command]
+        actionIdentifier = 'tuna.common-actions/switch'
+        behavior = 'run'
+        presentation = 'automatic'
+        subjectIdentifiers = [ 'tuna.modes/search' ]
+        type = 'savedCommand'
+
+[[comboMode.bindings]]
+iconPath = 'safari'
+key = 'u'
+
+    [comboMode.bindings.destination]
+    type = 'command'
+
+        [comboMode.bindings.destination.command]
+        actionIdentifier = 'tuna.common-actions/run'
+        behavior = 'run'
+        presentation = 'automatic'
+        subjectIdentifiers = [ 'tuna.shortcuts/F5E7029A-FDF7-4BE7-A0EF-8081951590FF' ]
+        type = 'savedCommand'
+
+[hotkeys]
+custom = []
+
+    [hotkeys.app.comboMode]
+    carbonKeyCode = 5
+    carbonModifiers = 4352
+
+    [hotkeys.app.textMode]
+    carbonKeyCode = 39
+    carbonModifiers = 4352
+
+[settings]
+comboModeCheatsheetDelayMS = 1000
+comboModeModifierConfiguration = 'optionGroupControlSticky'
+comboModeThemeStyle = 'breadcrumb'
+fuzzyModeTriggerType = 'disabled'
+mainWindowAnimationsEnabled = false
+shelfAutoCloseWhenTasksComplete = true
+shelfWindowAlwaysOnTop = false
+showTasksIndicatorWhenHidden = false
+themeIdentifier = 'com.brnbw.tuna.themes.NormieBar'
+
+[[smartLinks.entries]]
+enabled = true
+name = 'DuckDuckGo'
+requiresInput = true
+template = 'https://duckduckgo.com/?q={{input}}'
+
+[[smartLinks.entries]]
+enabled = true
+name = 'GitHub'
+requiresInput = true
+template = 'https://github.com/search?q={{input}}'
+
+[[smartLinks.entries]]
+enabled = true
+name = 'Google'
+requiresInput = true
+template = 'https://www.google.com/search?q={{input}}'
+
+[[catalogSettings]]
+catalogIdentifier = 'com.brnbw.tuna.themes.default'
+
+    [catalogSettings.values]
+    ThemeTint = 'system'
+
+[[catalogSettings]]
+catalogIdentifier = 'tuna.prompts'
+
+    [catalogSettings.values]
+    Provider = 'anthropic'
+
+[[catalogSettings]]
+catalogIdentifier = 'tuna.window-management'
+
+    [catalogSettings.values]
+    Cycling = 'sizes'
